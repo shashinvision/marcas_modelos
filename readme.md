@@ -4,6 +4,14 @@
 npm install
 ```
 
+```
+cd nodejs-mysql && npm install && DEBUG=nodejs-mysql:* nodemon start
+```
+
+```
+cd nodejs-mysql && npm install && DEBUG=nodejs-mysql:* npm start
+```
+
 ## se debe importar el SQL a una BBDD SQL y configurar los datos en el archivo configs/config.js
 
 ## por el momento se añade archivo postman para usar, pero se puede hacer manual con las siguientes direcciones
