@@ -5,11 +5,13 @@ npm install
 ```
 
 ```
-cd nodejs-mysql && npm install && DEBUG=nodejs-mysql:* nodemon start
+DEBUG=marcas-modelos-api:* nodemon start
+
 ```
 
 ```
-cd nodejs-mysql && npm install && DEBUG=nodejs-mysql:* npm start
+DEBUG=marcas-modelos-api:* npm start
+
 ```
 
 ## se debe importar el SQL a una BBDD SQL y configurar los datos en el archivo configs/config.js
