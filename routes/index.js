@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var usersRouter = require('./users');
 const modelosRouter = require('./modelos');
 const marcasRouter = require('./marcas');
 
@@ -11,7 +10,6 @@ router.get('/', function(req, res, next) {
 });
 
 
-router.use('/users', usersRouter);
 router.use('/modelos', modelosRouter);
 router.use('/marcas', marcasRouter);
 
